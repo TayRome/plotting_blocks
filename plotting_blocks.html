@@ -1,0 +1,101 @@
+<html>
+
+<head>
+  <title>Position Practice</title>
+  <!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
+  <style>
+    * {
+      margin: 0px;
+      padding: 0px;
+    }
+
+    #wrapper {
+
+      width: 950px;
+      height: 1000px;
+      background-color: silver;
+      margin: 10px;
+      padding: 10px;
+    }
+
+    .header {
+      position: relative;
+      width: 420px;
+      height: 140px;
+      background-color: red;
+      margin: 16px;
+      display: inline-block;
+      border: 2px solid black;
+    }
+
+    #navigation {
+      /* Position: relative; */
+      display: block;
+      width: 900px;
+      height: 140px;
+      background-color: blue;
+      margin: 4px;
+      border: 2px solid black;
+    }
+
+    .main_content {
+      /*Position: relative;*/
+      display: inline-block;
+      width: 260px;
+      height: 140px;
+      background-color: yellow;
+      margin: 14px;
+      border: 2px solid black;
+    }
+
+    .advertisement {
+      /* position: relative; */
+      display: block;
+      width: 900px;
+      height: 140px;
+      background-color: green;
+      margin: 8px;
+      border: 2px solid black;
+    }
+    .foot1 {
+      display: inline-block;
+      background-color: purple;
+      height: 110px;
+      width: 110px;
+      margin: 12px;
+      border: 2px solid black;
+    }
+    .foot2 {
+      display: inline-block;
+      background-color: purple;
+      height: 110px;
+      width: 110px;
+      margin: 12px;
+      border: 2px solid black;
+    }
+   #foot1 {
+     float: left;
+   }
+    #foot2 {
+      float: right;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="wrapper">
+    <div class="header"></div>
+    <div class="header"></div>
+    <div id="navigation"></div>
+    <div class="main_content"></div>
+    <div class="main_content"></div>
+    <div class="main_content"></div>
+    <div class="advertisement">
+     <div id="foot1"class="foot1"></div>
+     <div id="foot2"class="foot2"></div>
+      </div>
+  </div>
+  <!-- end of wrapper -->
+</body>
+
+</html>
